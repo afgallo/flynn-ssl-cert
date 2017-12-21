@@ -11,9 +11,9 @@ chmod a+x ./gen-cert.sh
 ```
 ## Usage
 ```bash
-./gen-cert.sh my_app_name [domain_name] [email] [dns_name]
+./gen-cert.sh my_app_name [domain_name] [email] [dns_service_name]
 ```
-> domain_name, email and dns_name are optional parameters. Make sure you change their default values before running the script.
+> domain_name, email and dns_service_name are optional parameters. Make sure you change their default values before running the script.
 
 ## Assumptions
 1. You have a valid domain name
