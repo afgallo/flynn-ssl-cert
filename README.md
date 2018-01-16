@@ -5,7 +5,7 @@
 
 ## Quickstart
 ```bash
-git clone git@github.com/flynn-ssl-cert.git
+git clone git@github.com/afgallo/flynn-ssl-cert.git
 cd flynn-ssl-cert
 chmod a+x ./gen-cert.sh
 ```
