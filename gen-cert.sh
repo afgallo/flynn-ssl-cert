@@ -48,7 +48,7 @@ function add_https_flynn() {
     echo "Error. Can't determine route id."
     exit 1
   fi
-  flynn -a $app_name route update $flynn_route_id --tls-cert $cert_folder/live/$cert_common_name/fullchain.pem --tls-key $cert_folder/live/$cert_common_name/privkey.pem
+  flynn -a $app_name route update $flynn_route_id --tls-cert $cert_folder/live/$cert_common_name-0001/fullchain.pem --tls-key $cert_folder/live/$cert_common_name-0001/privkey.pem
 }
 #------------------------------------------------------------------------------------------------
 # main
